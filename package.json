@@ -1,0 +1,11 @@
+{
+  "name": "quill-mesa-q6v2",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces"
+  }
+}
