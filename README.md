@@ -1,8 +1,5 @@
 # Quill Mesa: Monorepo · Vercel and Render
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A monorepo with three apps on two hosts: `clove-k4d` and `dill-m2x` on **Vercel**, `marjoram-r8n` on
 **Render** (a static site). Preview links are **public** on both. Static Vite + TypeScript, no
 framework. The page reads a live list from the shared Supabase test project. Row in the support
@@ -11,13 +8,11 @@ matrix: REN-1099 (Linear, project Onboarding evals).
 
 ## Deployment links
 
-Filled in at prep time.
-
 | App | Folder | Host | Production | Preview gate |
 |---|---|---|---|---|
-| _app one_ | `apps/<app>` | Vercel | _not deployed_ | no |
-| _app two_ | `apps/<app>` | Vercel | _not deployed_ | no |
-| _app three_ | `apps/<app>` | Render | _not deployed_ | no |
+| Clove | `apps/clove-k4d` | Vercel | https://quill-mesa-q6v2-clove-k4d.vercel.app | no |
+| Dill | `apps/dill-m2x` | Vercel | https://quill-mesa-q6v2-dill-m2x.vercel.app | no |
+| Marjoram | `apps/marjoram-r8n` | Render | https://quill-mesa-q6v2-marjoram-r8n.onrender.com (static site `srv-dbd1g1avcj2c739bsqvg`) | no |
 
 ## Names
 
