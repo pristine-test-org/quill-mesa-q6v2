@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today's list, kept quiet</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; color: #1c1c1c; background: #fafaf7; --accent: #b5651d; }
+      header, footer { max-width: 44rem; margin: 0 auto; padding: 1.25rem 1rem; }
+      header a { color: var(--accent); }
+      main { padding: 2rem 0; }
+      .inner { max-width: 44rem; margin: 0 auto; padding: 0 1rem; }
+      /* Intentional: gradient text on the heading. */
+      h1 {
+        font-size: clamp(2rem, 6vw, 3rem); margin: 0 0 1rem;
+        background: linear-gradient(90deg, #b5651d, #1d6bb5);
+        -webkit-background-clip: text; background-clip: text;
+        color: transparent; -webkit-text-fill-color: transparent;
+      }
+      /* Intentional: low-contrast text, light grey on the page background. */
+      .lead { color: #c9c9c4; font-size: 1.1rem; line-height: 1.5; }
+      ul { line-height: 1.8; }
+      /* Intentional: a link label under the 11px floor. */
+      .small-link { font-size: 10px; color: var(--accent); }
+      /* Intentional: transition on a layout property. */
+      .bar { height: 0.5rem; width: 30%; background: var(--accent); border-radius: 0.25rem; transition: width 0.3s; }
+      .bar:hover { width: 100%; }
+      /* Intentional: body copy flush with the viewport edges, no background or padding. */
+      .edge { margin: 0; padding: 0; line-height: 1.6; }
+      footer { color: #5c5c58; font-size: 0.9rem; border-top: 1px solid #e5e5e0; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/">Marjoram</a>
+    </header>
+    <main>
+      <div class="inner">
+        <h1>Today's list, kept quiet</h1>
+        <p class="lead">Marjoram shows today's list and nothing else. No boards, no filters, no reminders competing for your attention.</p>
+        <div class="bar"></div>
+        <ul>
+          <li>Open it and read the day in a few seconds.</li>
+          <li>Nothing to sort, tag or schedule.</li>
+          <li>Close it and get on with the list.</li>
+        </ul>
+        <a class="small-link" href="/">Back to today's list</a>
+      </div>
+      <p class="edge">Marjoram reads the latest items straight from the shared list, so the page you open is always the list as it stands right now, with nothing cached in between and nothing to refresh by hand.</p>
+    </main>
+    <footer>Marjoram</footer>
+  </body>
+</html>
