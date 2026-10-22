@@ -19,4 +19,4 @@ header a { color: var(--accent); }
 .muted { color: #777; list-style: none; margin-left: -1.2rem; }
 footer { color: #777; font-size: 0.9rem; border-top: 1px solid #e5e5e0; }
 
-/* proof push: each host builds on push */
+/* preview check: each host builds a pull request preview */
